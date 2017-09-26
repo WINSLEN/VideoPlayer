@@ -1,0 +1,63 @@
+{
+  "title": "动画",
+  "id": "0001",
+  "time": "2017-9-27",
+  "number": 6,
+  "class": "game",
+  "data": [
+    {
+      "word": "第一个",
+      "color": "rgb(255, 0, 0)",
+      "speed": 5,
+      "top": "5",
+      "fontSize": "16",
+      "action": "marquee",
+      "time": "1"
+    },
+    {
+      "word": "第二个",
+      "color": "rgb(0, 255, 0)",
+      "speed": 10,
+      "top": "10",
+      "fontSize": "16",
+      "action": "stay",
+      "time": "2"
+    },
+    {
+      "word": "第三个",
+      "color": "rgb(0, 0, 255)",
+      "speed": 15,
+      "top": "72px",
+      "fontSize": "16",
+      "action": "stay",
+      "time": "3"
+    },
+    {
+      "word": "第四个",
+      "color": "rgb(255, 240, 0)",
+      "speed": 20,
+      "top": "96px",
+      "fontSize": "16",
+      "action": "marquee",
+      "time": "4"
+    },
+    {
+      "word": "第五个",
+      "color": "rgb(0, 15, 255)",
+      "speed": 15,
+      "top": "120px",
+      "fontSize": "16",
+      "action": "marquee",
+      "time": "4"
+    },
+    {
+      "word": "第六个",
+      "color": "rgb(255, 0, 255)",
+      "speed": 10,
+      "top": "144px",
+      "fontSize": "16",
+      "action": "marquee",
+      "time": "5"
+    }
+  ]
+}
