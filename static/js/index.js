@@ -7,20 +7,20 @@ window.onload = function () {
 
     //初始化
     var video = $('#video1').videoCt({
-        title: '测试视频',              //标题
-        volume: 0.2,                //音量
+        title: '使徒行者',              //标题
+        volume: 0.5,                //音量
         barrage: true,              //弹幕开关
         comment: true,              //弹幕
         reversal: true,             //镜像翻转
         playSpeed: true,            //播放速度
-        update: true,               //下载
+        update: false,               //下载
         autoplay: true,            //自动播放
         clarity: {
-            type: ['360P','480P'],            //清晰度
-            src: ['/static/video/shituxingzhe_04_1080p.mp4',
-                  '/static/video/shituxingzhe_04_1080p.mp4']      //链接地址
+            type: ['高清'],            //清晰度
+            src: ['/static/video/shituxingzhe_04_1080p.mp4']      //链接地址
         },
-        commentFile: '/static/js/comment.json'           //导入弹幕json数据
+        commentFile: ''           //导入弹幕json数据
+        // commentFile: '/static/js/comment.json'           //导入弹幕json数据
     });
 
     //扩展

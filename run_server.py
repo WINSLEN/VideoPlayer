@@ -1,4 +1,5 @@
 from flask import Flask,render_template
+from werkzeug.contrib.fixers import ProxyFix
 
 app = Flask(__name__)
 
@@ -8,4 +9,5 @@ def hello_world():
     return render_template('video.html')
 
 if __name__ == '__main__':
-    app.run(debug=True, threaded=True)
+    app.wsgi_app = ProxyFix(app.wsgi_app)
+    app.run(debug=True)
